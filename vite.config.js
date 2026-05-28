@@ -9,12 +9,12 @@ export default defineConfig({
   server: {
     port: 5173,
     proxy: {
-      "/getToken": "http://127.0.0.1:3000",
-      "/token": "http://127.0.0.1:3000",
-      "/stream": "http://127.0.0.1:3000",
-      "/moderate": "http://127.0.0.1:3000",
-      "/audit": "http://127.0.0.1:3000",
-      "/health": "http://127.0.0.1:3000",
+      "/getToken": "https://karthik-project.onrender.com",
+      "/token": "https://karthik-project.onrender.com",
+      "/stream": "https://karthik-project.onrender.com",
+      "/moderate": "https://karthik-project.onrender.com",
+      "/audit": "https://karthik-project.onrender.com",
+      "/health": "https://karthik-project.onrender.com",
     },
   },
 });
